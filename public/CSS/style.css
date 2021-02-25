@@ -1,0 +1,215 @@
+* {
+    overflow: hidden;
+    margin: 0;
+    color: #ffffff;
+    font-family: 'Didact Gothic', sans-serif;
+}
+
+#title-box {
+    margin-top: 16px;
+    justify-content:center;;
+    align-content:center;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 24vw;
+    height: 24vh;
+    /*top: 35vh;
+    left: 35vw;*/
+    border: 2px solid #ffffff;
+    border-width: 2px;
+    background-color:rgba(0,0,0,0.8);
+}
+
+#title {
+    padding-top: 5%;
+    align-self: center;
+    text-align: center;
+    font-size: 32px;
+    width: 100%;
+    border-bottom: 2px solid #fff;
+}
+
+#subtitle {
+    align-self: center;
+    text-align: center;
+    font-size: 24px;
+    width: 100%;
+    margin-bottom: 4px;
+}
+
+#instruction-box {
+    justify-content:center;
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #fff;
+    background-color: #000000;
+    position: absolute;
+    right: 5vh;
+    bottom: 5vh;
+    width: 25vw;
+    height: 20vh;
+    opacity: 85%;
+}
+
+#instruction-title {
+    align-self: center;
+    text-align: center;
+    font-size: 30pt;
+    width: 100%;
+    height: 20%;
+    padding-bottom: 5%;
+}
+
+#instruction-body {
+    width: 100%;
+    height: 60%;
+}
+
+#instruction-body > h1 {
+    padding: 0;
+    margin: 0;
+    align-self: center;
+    text-align: center;
+    font-size: 10pt;
+    padding-bottom: 5%;
+
+}
+
+#display-box {
+    justify-content: center;
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+    border-width: 2px;
+    border-color: #ffffff;
+    background-color:rgba(0,0,0,0.8);
+    position: absolute;
+    left: 5vh;
+    bottom: 5vh;
+    width: 15vw;
+    height: 15vh;
+    border: 2px solid #fff;
+}
+
+#display-box-title {
+    margin-top: 5%;
+    justify-items: center;
+    align-content: center;
+    align-self: center;
+    text-align: center;
+    width: 75%;
+    height: 15%;
+    border: 2px;
+    border-color: #ffffff;
+    margin-bottom: 2px;
+}
+
+#show-country {
+    margin-top: 4px;
+    justify-items: center;
+    align-content: center;
+    align-self: center;
+    text-align: center;
+    width: 320px;
+    height: 80px;
+    border-color: #ffffff;
+    border-width: 2px;
+    margin-bottom: 4px;
+    background-color:rgba(0,0,0,0.8);
+    position: absolute;
+    top: 80%;
+    left: 4%;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+#instructions {
+    margin-top: 4px;
+    justify-items: center;
+    align-content: center;
+    align-self: center;
+    text-align: center;
+    width: 75%;
+    height: 30%;
+    border-color: #ffffff;
+    border-width: 2px;
+    margin-bottom: 4px;
+}
+
+#info-box {
+    justify-content: space-around;
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #fff;
+    background-color: #000;
+    opacity: 80%;
+    position: absolute;
+    right: 5vh;
+    bottom: 40vh;
+    width: 20vw;
+    min-height: 50vh;
+    font-size: 12px;
+    text-align: center;
+    padding: 8px;
+}
+
+#info-title {
+
+}
+				
+#country-info {
+
+}
+
+#language {
+
+}
+    
+#region {
+
+}
+    
+#population {
+
+}
+    
+#area-sq-mi {
+
+}
+    
+#gdp-per-capita {
+
+}
+    
+#climate {
+    
+}
+
+.info-title {
+    border: 2px solid #fff;
+}
+
+.info-subtitle {
+    margin-top: 4%;
+    justify-items: center;
+    align-content: center;
+    border-width: 2px;
+    border-color: #fff;
+    margin-bottom: 4px;
+    border-bottom: 2px solid #fff;
+}
+
+button {
+    border: 2px solid #fff;
+    background: #000;
+    opacity: 80%;
+    color: #fff;
+}
+
+h3 {
+    text-transform: uppercase;
+    font-size: 16px;
+}

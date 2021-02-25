@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+		<title>Globe Visual</title>
+		<link rel="stylesheet" type="text/css" href="./CSS/style.css" media="screen" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap" rel="stylesheet"> 
+	</head>
+
+    <body>
+
+		<div id="title-box">
+
+			<div id="title">
+				Three.js Earth
+			</div>
+
+			<div id="subtitle">
+				Gabe Deko
+			</div>
+			<div id="subtitle">
+				Major Studio 2
+			</div>
+			<div id="subtitle">
+				Spring 2021
+			</div>
+
+		</div>
+
+		<div id="instruction-box">
+
+			<div id="instruction-title">
+				INSTRUCTIONS
+			</div>
+
+			<div id="instruction-body">
+
+				<h1>
+					Click and drag mouse around to see full globe
+					<br>
+					Click on points of interest to display their info
+					<br>
+					Zoom In/Out using mouse scroll
+					<br>
+					
+				</h1>
+				
+			</div>
+
+		</div>
+
+		<!--div id="display-box">
+
+			<div id="display-box-title">
+				Choose an option below!
+			</div>
+
+			<button id="country">
+				Show Countries
+			</button>
+
+			<button id="instructions">
+				Click ehre for instructions!
+			</button>
+
+		</div-->
+
+		<button id="show-country">
+			Show Countries
+		</button>
+
+		<div id="info-box">
+
+			<h1 class="info-title">Information</h1>
+
+			<h2 class="info-subtitle">Region</h2>
+			<h3 id="region"></h3>
+
+			<h2 class="info-subtitle">Country</h2>
+			<h3 id="country-info"></h3>
+
+			<h2 class="info-subtitle">Language</h2>
+			<h3 id="language"></h3>
+
+			<h2 class="info-subtitle">Population</h2>
+			<h3 id="population"></h3>
+
+			<h2 class="info-subtitle">Aera(mile^2)</h2>
+			<h3 id="area-sq-mi"></h3>
+
+			<h2 class="info-subtitle">GDP Per Capita</h2>
+			<h3 id="gdp-per-capita"></h3>
+
+			<h2 class="info-subtitle">Climate</h2>
+			<h3 id="climate"></h3>
+
+		</div>
+
+		<script type="module" src="./JS/globe.js"></script>
+		
+    </body>
+</html>
