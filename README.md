@@ -1,4 +1,5 @@
 <img width="1125" alt="Screenshot 2024-01-15 095935" src="https://github.com/gabedeko/WEBGL-THREE-JS-GLOBE/assets/7357772/9c2d2965-07e3-4caa-b54b-29912444bfc2">
+
 [Link to Project](https://www.notion.so/Day-1-Three-js-Globe-95961b789a1140e093438aefd25c7a62)
 
 [Three.js](http://three.is) is a powerful cross-browser JavaScript library and application programming interface used to create and display animated 3D computer graphics in a web browser using [WebGL](https://get.webgl.org/). It’s a tool that I’ve been wanting to learn for some time but have never had the time or motivation to do. I figured when not kick off my 5-in-5 by doing a not too complicated project using three.js to familiarize myself with the framework and gain some experience.
